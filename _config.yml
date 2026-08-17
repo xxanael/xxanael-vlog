@@ -74,7 +74,8 @@ pwa:
 paginate: 10
 
 # Chemin de votre dépôt GitHub Pages
-baseurl: "/Cyber-vlog-anael"
+url: "https://xxanael.github.io"
+baseurl: "/xxanael-vlog"
 
 # ------------ The following options are not recommended to be modified ------------------
 
