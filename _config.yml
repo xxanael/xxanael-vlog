@@ -146,3 +146,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    
+favicon:
+  path: "/assets/img/favicons"
