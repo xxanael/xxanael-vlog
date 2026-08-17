@@ -3,7 +3,7 @@ title: "Box — Cap : Writeup"
 date: 2026-08-17 14:00:00 +0100
 categories: [Box, HackTheBox]
 tags: [htb, ctf, writeup, linux, web, idor, pcap, capabilities, privesc, easy]
-description: "Résolution de la room RootMe sur TryHackMe : contournement de blacklist d'upload, reverse shell et privilège escalation via un binaire SUID Python."
+description: "Analyse d'un fichier de capture réseau (PCAP) pour récupérer des identifiants en clair, élévation de privilèges via l'exploitation des Linux Capabilities (cap_setuid)"
 ---
 
 > Machine Linux exposant un dashboard web de "sécurité réseau" permettant de lancer des captures réseau (PCAP). Une **IDOR** sur l'identifiant de scan permet de récupérer le PCAP d'un autre utilisateur, contenant des identifiants FTP en clair. Ces identifiants sont réutilisés en SSH par réutilisation de mot de passe, puis une capability Linux (`cap_setuid`) sur `python3.8` permet l'élévation de privilèges vers root.
