@@ -55,14 +55,15 @@ order: 4
 
 
 
-| Ressource                                   | Lien                                                                                      |
-| ------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **LinEnum**                                 | https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh                              |
-| **Checklists**                              | https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md          |
-| **Payatu - A guide for privesc**            | https://payatu.com/blog/a-guide-to-linux-privilege-escalation/                            |
-| **Privilege Escalation - Total OSCP Guide** | https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html |
-| **Basic linux privilege escalation**        | https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/                        |
-| **LinPEAS**                                 | https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS                                  |
+| Ressource                                   | Lien                                                                                                                                 |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **LinEnum**                                 | [LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)                                                              |
+| **Checklists**                              | [Checklists Linux Privsec](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)                         |
+| **Payatu - A guide for privesc**            | [Payatu - A guide to linux privilege escalation](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/)                     |
+| **Privilege Escalation - Total OSCP Guide** | [sushant747 - privilege escalation linux](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html) |
+| **Basic linux privilege escalation**        | [g0tmi1k - Basic linux privesc](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)                                  |
+| **LinPEAS**                                 | [LinPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS)                                                                  |
+
 
 ### Détourner des binaires
 - **GTFOBins** : liste de binaires Unix exploitables pour bypass de restrictions locales → [gtfobins.org](https://gtfobins.org/)
@@ -74,7 +75,7 @@ order: 4
 | **Pentestmonkey**                     | [pentestmonkey.net](https://pentestmonkey.net/)                                                                      |
 | **PayloadsAllTheThings – Cheatsheet** | [Reverse Shell Cheatsheet](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/) |
 | **Webshells locaux**                  | `/usr/share/webshells`                                                                                               |
-| **Générateur de Reverse shell**       | https://www.revshells.com/                                                                                           |
+| **Générateur de Reverse shell**       | [revershells.com](https://www.revshells.com/)                                                                        |
 
 
 ---
