@@ -5,6 +5,7 @@ icon: fas fa-book
 order: 4
 ---
 
+
 # 📚 Ressources Cybersécurité
 
 > [!info] À propos
@@ -20,11 +21,12 @@ order: 4
 
 ---
 
-## 🌐 Web Exploitation
+## 🌐 Web Exploitation & Réseau
 
-| Ressource | Description | Lien |
-|---|---|---|
+| Ressource                | Description                                                  | Lien                                                                                               |
+| ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | **PayloadsAllTheThings** | Dépôt GitHub massif de payloads et techniques d'exploitation | [github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) |
+| **Les réseaux de zéro**  | Site pour apprendre les fondamentaux du réseau               | https://zestedesavoir.com/tutoriels/2789/les-reseaux-de-zero/                                      |
 
 ### 💉 XSS Injection
 - **XSS Hunter Express** : outil de détection et capture de XSS blind
@@ -46,19 +48,34 @@ order: 4
 
 ### Élévation de privilèges
 
-> [!tip] LinPEAS
+> [!tip] LinPEAS et LinEnum
 > Énumère automatiquement les configurations erronées, fichiers sensibles et permissions excessives sur un système Linux.
+
+
+
+
+
+| Ressource                                   | Lien                                                                                      |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **LinEnum**                                 | https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh                              |
+| **Checklists**                              | https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md          |
+| **Payatu - A guide for privesc**            | https://payatu.com/blog/a-guide-to-linux-privilege-escalation/                            |
+| **Privilege Escalation - Total OSCP Guide** | https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html |
+| **Basic linux privilege escalation**        | https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/                        |
+| **LinPEAS**                                 | https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS                                  |
 
 ### Détourner des binaires
 - **GTFOBins** : liste de binaires Unix exploitables pour bypass de restrictions locales → [gtfobins.org](https://gtfobins.org/)
 
 ### Reverse Shell
 
-| Ressource | Lien |
-|---|---|
-| **Pentestmonkey** | [pentestmonkey.net](https://pentestmonkey.net/) |
+| Ressource                             | Lien                                                                                                                 |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Pentestmonkey**                     | [pentestmonkey.net](https://pentestmonkey.net/)                                                                      |
 | **PayloadsAllTheThings – Cheatsheet** | [Reverse Shell Cheatsheet](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/) |
-| **Webshells locaux** | `/usr/share/webshells` |
+| **Webshells locaux**                  | `/usr/share/webshells`                                                                                               |
+| **Générateur de Reverse shell**       | https://www.revshells.com/                                                                                           |
+
 
 ---
 
@@ -72,23 +89,16 @@ order: 4
 
 ---
 
-## 📝 Blogs d'inspiration
+## 📝 Blogs d'inspiration & veille tech
 
-| Auteur | Lien |
-| --- | --- |
-| **kur0sh1r0** | [kur0sh1r0.tech](https://kur0sh1r0.tech/#certifications) |
-| **emma_aura** | [emma-aura.github.io](https://emma-aura.github.io/blog-ctf-chirpy-/) |
-| **foundhack** | [foundhack.github.io](https://foundhack.github.io/) |
-| **h4ckyou** | [h4ckyou.github.io](https://h4ckyou.github.io/) |
+| Auteur              | Lien                                                                 |
+| ------------------- | -------------------------------------------------------------------- |
+| **kur0sh1r0**       | [kur0sh1r0.tech](https://kur0sh1r0.tech/#certifications)             |
+| **emma_aura**       | [emma-aura.github.io](https://emma-aura.github.io/blog-ctf-chirpy-/) |
+| **foundhack**       | [foundhack.github.io](https://foundhack.github.io/)                  |
+| **h4ckyou**         | [h4ckyou.github.io](https://h4ckyou.github.io/)                      |
+| **Breaches Africa** | [https://breaches.africa/](https://breaches.africa/)                 |
 
 ---
 
-## 🔗 Quick Links
 
-```
-Reverse.zip            → https://reverse.zip/
-PayloadsAllTheThings    → https://github.com/swisskyrepo/PayloadsAllTheThings
-Crackstation            → https://crackstation.net/
-GTFOBins                → https://gtfobins.org/
-Pentestmonkey           → https://pentestmonkey.net/
-```

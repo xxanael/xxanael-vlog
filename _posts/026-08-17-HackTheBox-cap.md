@@ -6,6 +6,7 @@ tags: [htb, ctf, writeup, linux, web, idor, pcap, capabilities, privesc, easy]
 description: "Analyse d'un fichier de capture réseau (PCAP) pour récupérer des identifiants en clair, élévation de privilèges via l'exploitation des Linux Capabilities (cap_setuid)"
 ---
 
+
 > Machine Linux exposant un dashboard web de "sécurité réseau" permettant de lancer des captures réseau (PCAP). Une **IDOR** sur l'identifiant de scan permet de récupérer le PCAP d'un autre utilisateur, contenant des identifiants FTP en clair. Ces identifiants sont réutilisés en SSH par réutilisation de mot de passe, puis une capability Linux (`cap_setuid`) sur `python3.8` permet l'élévation de privilèges vers root.
 
 ## Infos cibles
@@ -74,13 +75,6 @@ Une IDOR survient quand une application expose une référence directe, souvent 
 
 En modifiant simplement l'ID dans l'URL, par exemple en le décrémentant vers `0` ou `1`, on accède aux captures réseau générées par d'autres utilisateurs, y compris celles antérieures à notre propre session.
 
-```bash
-# Énumération manuelle des IDs de scans
-for id in 0 1 2 3 4 5; do
-  curl -s -o "scan_${id}.pcap" http://10.129.70.236/data/${id} -b "session=<cookie>"
-done
-```
-
 Cette boucle simple suffit à récupérer tous les PCAP accessibles sans avoir besoin d'un outil dédié comme Burp Intruder, la room étant volontairement simple sur ce point (pas de token anti-énumération, pas de rate limiting visible).
 
 > [!success] Réponse
@@ -90,19 +84,9 @@ Cette boucle simple suffit à récupérer tous les PCAP accessibles sans avoir b
 
 ## Task 4 & 5 — PCAP contenant des données sensibles / protocole concerné
 
-En parcourant les PCAP récupérés via l'IDOR, notamment celui d'ID **0** (le tout premier scan effectué sur la machine, probablement par un admin ou un utilisateur système lors de la configuration initiale), on trouve une capture de trafic FTP en clair.
+En parcourant les PCAP récupérés via l'IDOR, notamment celui d'ID **0**, on trouve une capture de trafic FTP en clair.
 
-```bash
-# Analyse rapide avec tshark en ligne de commande
-tshark -r scan_0.pcap -Y "ftp" -T fields -e frame.number -e ftp.request.command -e ftp.request.arg
-
-# Ou extraction directe des identifiants
-tshark -r scan_0.pcap -Y "ftp.request.command == \"USER\" || ftp.request.command == \"PASS\""
-```
-
-Le filtre `-Y "ftp"` isole uniquement les paquets liés au protocole FTP dans un PCAP potentiellement volumineux contenant tout type de trafic. Le second filtre cible précisément les commandes `USER` et `PASS`, qui transportent respectivement le nom d'utilisateur et le mot de passe en clair lors de l'authentification FTP.
-
-Ou visuellement dans Wireshark, en faisant un clic droit sur un paquet FTP puis `Follow > TCP Stream` sur la conversation concernée (port 21), ce qui affiche l'intégralité de l'échange en clair, y compris les commandes `USER` et `PASS`.
+Visuellement dans Wireshark, en faisant un clic droit sur un paquet FTP puis `Follow > TCP Stream` sur la conversation concernée (port 21), ce qui affiche l'intégralité de l'échange en clair, y compris les commandes `USER` et `PASS`.
 
 > [!success] Réponses
 > - **Task 4** : le PCAP sensible est celui d'**ID `0`** (le premier scan)
