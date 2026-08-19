@@ -16,7 +16,7 @@ order: 2
 
 ### 👋 Salut, moi c'est xxanael
 
-Étudiant en première année de cybersécurité (SSI) à **HECM** au Bénin, je documente ici mon parcours dans le monde du hacking éthique et des CTF. Entre les rooms TryHackMe, les machines HackTheBox et les challenges picoCTF, je partage mes apprentissages, mes write-ups et mes galères (parce que oui, il y en a !).
+Étudiant en deuxième année de cybersécurité (SSI) à **HECM** au Bénin, je documente ici mon parcours dans le monde du hacking éthique et des CTF. Entre les rooms TryHackMe, les machines HackTheBox et les challenges picoCTF, je partage mes apprentissages, mes write-ups et mes galères (parce que oui, il y en a !).
 
 Passionné de sécurité offensive comme défensive, du web exploitation à l'OSINT, en passant par le forensics, je construis petit à petit mes compétences, un flag à la fois.
 
@@ -36,6 +36,7 @@ Bienvenue dans mon dojo numérique. 🥷
 
 ### 🌐 Retrouve-moi sur les réseaux
 
-- **GitHub :** [github.com/votre-pseudo](https://xxanael/)
+- **GitHub :** [github.com/xxanael](https://github.com/xxanael)
 - **TryHackMe :** [Profil TryHackMe](https://tryhackme.com/p/xxanael)
 - **LinkedIn :** [Profil LinkedIn](https://www.linkedin.com/in/dona-marie-fid%C3%A8le-ana%C3%ABl-singbo-56526a3a6/)
+- **Portfolio :** [Anael's portfolio](https://xxanael.github.io/Portfolio/)
