@@ -38,13 +38,15 @@ order: 4
 ### Réseau
 - **Scapy** : manipulation et création de paquets réseau en Python
 
-### Hash
+### Hash & Encodage
 
 | Outil | Usage |
 |---|---|
 | **Crackstation** | Cassage de hash en ligne — [crackstation.net](https://crackstation.net/) |
 | **hash-identifier** | Identification du type de hash |
 | **hashid** | Identification du type de hash (alternative) |
+| **Lexilogos** | Traduire du morse - [lexilogos.com](https://www.lexilogos.com/clavier/morse.htm) |
+
 
 ### Élévation de privilèges
 
@@ -63,6 +65,7 @@ order: 4
 | **Privilege Escalation - Total OSCP Guide** | [sushant747 - privilege escalation linux](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html) |
 | **Basic linux privilege escalation**        | [g0tmi1k - Basic linux privesc](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)                                  |
 | **LinPEAS**                                 | [LinPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS)                                                                  |
+| **Exploit Database**                        | [Exploit-DB](https://www.exploit-db.com/)                                                                                            |
 
 
 ### Détourner des binaires
