@@ -27,6 +27,8 @@ order: 4
 | ------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | **PayloadsAllTheThings** | Dépôt GitHub massif de payloads et techniques d'exploitation | [github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) |
 | **Les réseaux de zéro**  | Site pour apprendre les fondamentaux du réseau               | [Les réseaux de zéro](https://zestedesavoir.com/tutoriels/2789/les-reseaux-de-zero/)                                      |
+| **WebSecurity Academy**  | La référence pour apprendre et pratiquer le web              | [Portswigger - WebSecurity Academy ](https://portswigger.net/web-security) |
+
 
 ### 💉 XSS Injection
 - **XSS Hunter Express** : outil de détection et capture de XSS blind
@@ -55,8 +57,6 @@ order: 4
 
 
 
-
-
 | Ressource                                   | Lien                                                                                                                                 |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | **LinEnum**                                 | [LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)                                                              |
@@ -66,10 +66,8 @@ order: 4
 | **Basic linux privilege escalation**        | [g0tmi1k - Basic linux privesc](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)                                  |
 | **LinPEAS**                                 | [LinPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS)                                                                  |
 | **Exploit Database**                        | [Exploit-DB](https://www.exploit-db.com/)                                                                                            |
+| **GTFOBins**                                | [gtfobins.org](https://gtfobins.org/)                                                                                                |
 
-
-### Détourner des binaires
-- **GTFOBins** : liste de binaires Unix exploitables pour bypass de restrictions locales → [gtfobins.org](https://gtfobins.org/)
 
 ### Reverse Shell
 
@@ -79,17 +77,6 @@ order: 4
 | **PayloadsAllTheThings – Cheatsheet** | [Reverse Shell Cheatsheet](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/) |
 | **Webshells locaux**                  | `/usr/share/webshells`                                                                                               |
 | **Générateur de Reverse shell**       | [revershells.com](https://www.revshells.com/)                                                                        |
-
-
----
-
-## 🏴 TryHackMe — Modules
-
-| Module | Lien |
-|---|---|
-| **Authentication** | [tryhackme.com/module/authentication](https://tryhackme.com/module/authentication) |
-| **Cryptographic Failures** | [tryhackme.com/module/cryptofailures](https://tryhackme.com/module/cryptofailures) |
-| **Injection Attacks** | [tryhackme.com/module/injection-attacks](https://tryhackme.com/module/injection-attacks) |
 
 ---
 
@@ -101,7 +88,9 @@ order: 4
 | **emma_aura**       | [emma-aura.github.io](https://emma-aura.github.io/blog-ctf-chirpy-/) |
 | **foundhack**       | [foundhack.github.io](https://foundhack.github.io/)                  |
 | **h4ckyou**         | [h4ckyou.github.io](https://h4ckyou.github.io/)                      |
-| **Breaches Africa** | [https://breaches.africa/](https://breaches.africa/)                 |
+| **Breaches Africa** | [Breaches.africa/](https://breaches.africa/)                 |
+| **@sirpedrotavares** | [Red teaming and malware analysis](https://gitbook.seguranca-informatica.pt/) |
+| **ℕყא**             | [nyx-deb.vercel.app](https://nyx-deb.vercel.app/)                    |
 
 ---
 
