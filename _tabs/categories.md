@@ -1,6 +1,6 @@
 ---
 layout: categories
-title: Writeup
+title: Catégories
 icon: fas fa-flag
 order: 4
 ---
