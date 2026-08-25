@@ -1,6 +1,5 @@
 ---
-
-## title: "Hack The Box — Bashed : Writeup"  
+title: "Hack The Box — Bashed : Writeup"  
 date: 2026-08-25 00:00:00 +0200  
 categories: [Box, HackTheBox]  
 tags: [web, content-discovery, webshell, reverse-shell, privesc, sudo, cron, linux, HackTheBox]  
