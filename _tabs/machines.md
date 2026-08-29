@@ -12,3 +12,4 @@ order: 3
 | Cap | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-cap/' | relative_url }}) |
 | Nibbles | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-nibbles/' | relative_url }}) |
 | Bashed | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-bashed/' | relative_url }}) |
+| Shocker | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-shocker/' | relative_url }}) |
