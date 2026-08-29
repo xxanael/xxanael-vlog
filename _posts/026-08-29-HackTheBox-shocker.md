@@ -122,9 +122,7 @@ En recherchant des informations sur les vulnérabilités liées à **Apache**, *
 
 Cette vulnérabilité permet notamment une exécution de commandes à distance lorsqu'un serveur CGI utilise une version vulnérable de Bash.
 
-L'exploit utilisé est disponible sur Exploit-DB :
-
-https://www.exploit-db.com/exploits/34900
+L'exploit utilisé est disponible sur [Exploit-DB](https://www.exploit-db.com/exploits/34900)
 
 ---
 
@@ -177,7 +175,7 @@ cat user.txt
 
 **Flag utilisateur :**
 
-`42828566dfe0d054c25e07085ea76e8c`
+`42**************************6e8c`
 
 ---
 
@@ -205,9 +203,7 @@ Cette configuration constitue une piste intéressante pour l'escalade de privil�
 
 Je recherche alors une méthode permettant d'exploiter les privilèges sudo accordés à Perl.
 
-Pour cela, je consulte **GTFOBins**, qui répertorie notamment différentes techniques permettant d'abuser de binaires disposant de privilèges particuliers.
-
-https://gtfobins.org/
+Pour cela, je consulte [GTFOBins](https://gtfobins.org/), qui répertorie notamment différentes techniques permettant d'abuser de binaires disposant de privilèges particuliers.
 
 Je trouve une commande permettant d'utiliser Perl afin d'obtenir un shell avec les privilèges de `root`.
 
@@ -245,7 +241,7 @@ cat root.txt
 
 **Flag root :**
 
-`92972780e0d9402ab80dd2ddc403debe`
+`92**************************debe`
 
 ---
 
