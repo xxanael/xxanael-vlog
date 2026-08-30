@@ -1,9 +1,12 @@
 ---
-title: "Box — Cap : Writeup"
+title: "Hack The Box— Cap : Writeup"
 date: 2026-08-17 14:00:00 +0100
 categories: [Box, HackTheBox]
 tags: [htb, ctf, writeup, linux, web, idor, pcap, capabilities, privesc, easy]
 description: "Analyse d'un fichier de capture réseau (PCAP) pour récupérer des identifiants en clair, élévation de privilèges via l'exploitation des Linux Capabilities (cap_setuid)"
+image:
+  path: /assets/img/htb/cap/cap-banner.png
+  alt: cap Banner
 ---
 
 

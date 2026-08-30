@@ -4,6 +4,9 @@ date: 2026-08-17 14:00:00 +0100
 categories: [Room, TryHackMe]
 tags: [web, file-upload, privesc, suid, linux]
 description: "Résolution de la room RootMe sur TryHackMe : contournement de blacklist d'upload, reverse shell et privilège escalation via un binaire SUID Python."
+image:
+  path: /assets/img/tryhackme/rootme/rootme-banner.png
+  alt: rootme Banner
 ---
 
 > **Cible** : `10.129.135.83` 
