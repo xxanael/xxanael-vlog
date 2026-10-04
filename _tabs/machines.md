@@ -13,3 +13,4 @@ order: 3
 | Nibbles | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-nibbles/' | relative_url }}) |
 | Bashed | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-bashed/' | relative_url }}) |
 | Shocker | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-shocker/' | relative_url }}) |
+| Orion | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-orion/' | relative_url }}) |
