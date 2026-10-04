@@ -230,7 +230,7 @@ cat user.txt
 **Flag utilisateur :**
 
 ```text
-5927c386f289b1262abc50c21857720c
+59**************************720c
 ```
 
 L'accès utilisateur est donc obtenu. Je peux maintenant poursuivre l'énumération afin de rechercher une éventuelle possibilité d'escalade de privilèges.
@@ -310,7 +310,7 @@ Je recherche alors le fichier `root.txt` et affiche son contenu.
 **Flag root :**
 
 ```text
-938fef186ab969f8756e7b0b0c31b424
+93**************************b424
 ```
 
 La compromission complète de la machine est désormais terminée.
