@@ -7,7 +7,6 @@ description: "Résolution de la machine Bashed sur Hack The Box : reconnaissance
 image:
   path: /assets/img/htb/bashed/bashed-banner.png 
   alt: bashed Banner
-    
 ---
 
 # Hack The Box — Bashed
@@ -32,7 +31,7 @@ nmap -sC -sV 10.129.71.159
 
 **Résultat :**
 
-![nmap resultat](/assets/img/htb/bashed/nmap_result.png)
+![nmap resultat](/assets/img/htb/orion/nmap_result.png)
 
 Le scan révèle que seul le **port 80**, correspondant au service HTTP, est ouvert.
 

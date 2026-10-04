@@ -1,14 +1,13 @@
 ---
-
 title: "Hack The Box — Orion : Writeup"
 date: 2026-10-04 00:00:00 +0200
 categories: [Box, HackTheBox]
 tags: [web, craftcms, content-discovery, metasploit, rce, mysql, hash-cracking, telnet, privesc, cve-2025-32432, cve-2026-24061, linux, HackTheBox]
 description: "Résolution de la machine Orion sur Hack The Box : reconnaissance des services, exploitation de Craft CMS, récupération des identifiants MySQL, accès utilisateur et élévation de privilèges via Telnet."
 image:
-path: /assets/img/htb/orion/orion-banner.png
-alt: Orion Banner
------------------
+  path: /assets/img/htb/orion/orion-banner.png
+  alt: Orion Banner
+---
 
 # Hack The Box — Orion
 
