@@ -15,3 +15,4 @@ order: 3
 | Shocker | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-shocker/' | relative_url }}) |
 | Orion | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-orion/' | relative_url }}) |
 | Management | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-management/' | relative_url }}) |
+| Nexus | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-nexus/' | relative_url }}) |
