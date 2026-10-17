@@ -15,8 +15,8 @@ image:
 ## Informations sur la machine
 
 * **Cible** : `10.129.234.54`
-* **Système d'exploitation** : À compléter
-* **Difficulté** : À compléter
+* **Système d'exploitation** : Linux
+* **Difficulté** : Easy
 
 ## 1. Reconnaissance avec Nmap
 

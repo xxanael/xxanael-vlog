@@ -15,7 +15,7 @@ image:
 
 * **Cible** : `10.129.153.100`
 * **Système d'exploitation** : Linux
-* **Difficulté** : À compléter
+* **Difficulté** : Easy
 
 ## 1. Reconnaissance avec Nmap
 
