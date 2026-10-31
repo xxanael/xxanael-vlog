@@ -40,6 +40,9 @@ order: 4
 ### Réseau
 - **Scapy** : manipulation et création de paquets réseau en Python
 
+### Stéganographie
+- **MagicBytes** : [Magicbytes](https://github.com/Haxrein/MagicBytes) est un outil permettant de rétablir les magic bytes d'un PNG ou JPEG
+
 ### Hash & Encodage
 
 | Outil | Usage |

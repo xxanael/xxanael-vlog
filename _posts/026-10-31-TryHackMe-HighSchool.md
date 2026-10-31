@@ -46,7 +46,7 @@ Le port 80 étant ouvert, on en déduit la présence d'un serveur web, qui devie
 
 Je me rends sur la page web `http://10.128.130.148/`.
 
-![home page](/assets/img/tryhackme/HighSchool/home page.png)
+![home page](/assets/img/tryhackme/HighSchool/home_page.png)
 
 Je tombe sur une page web. Après m'être attardé en vain dans l'espoir de trouver une vulnérabilité ou une version exploitable dans le code source, je décide de passer à un content discovery avec Gobuster.
 

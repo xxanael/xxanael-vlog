@@ -16,3 +16,4 @@ order: 3
 | Orion | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-orion/' | relative_url }}) |
 | Management | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-management/' | relative_url }}) |
 | Nexus | HackTheBox | Linux | Easy | [Write-up]({{ '/posts/HackTheBox-nexus/' | relative_url }}) |
+| U.A. High School | TryHackMe | Linux | Easy | [Write-up]({{ '/posts/TryHackMe-HighSchool/' | relative_url }}) |
