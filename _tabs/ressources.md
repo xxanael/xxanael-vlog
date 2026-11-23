@@ -40,6 +40,9 @@ order: 4
 ### Réseau
 - **Scapy** : manipulation et création de paquets réseau en Python
 
+### Web
+- **Security Headers** [Security headers](https://securityheaders.com/) est un outils permettant d'analyser les security headers d'un site 
+
 ### Stéganographie
 - **MagicBytes** : [Magicbytes](https://github.com/Haxrein/MagicBytes) est un outil permettant de rétablir les magic bytes d'un PNG ou JPEG
 
@@ -80,6 +83,15 @@ order: 4
 | **PayloadsAllTheThings – Cheatsheet** | [Reverse Shell Cheatsheet](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/) |
 | **Webshells locaux**                  | `/usr/share/webshells`                                                                                               |
 | **Générateur de Reverse shell**       | [revershells.com](https://www.revshells.com/)                                                                        |
+
+
+### Phishing
+
+| Ressource                             | Lien                                                                                                                 |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **GoPhish**                           | [GoPhish](https://github.com/gophish/gophish)                                                                        |
+| **EvilNginx**                         | [EvilNginx](https://github.com/kgretzky/evilginx2)                                                                   |
+| **The Social Engineering Toolkit**    | [The Social Engineering Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit)                        |
 
 ---
 
