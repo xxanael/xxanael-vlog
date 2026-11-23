@@ -94,6 +94,9 @@ order: 4
 | **Breaches Africa** | [Breaches.africa/](https://breaches.africa/)                 |
 | **@sirpedrotavares** | [Red teaming and malware analysis](https://gitbook.seguranca-informatica.pt/) |
 | **ℕყא**             | [nyx-deb.vercel.app](https://nyx-deb.vercel.app/)                    |
+| **ka3n1x**             | [ka3n1x.io](https://ka3n1x.io/)                    |
+| **jaxafed**             | [jaxafed.io](https://jaxafed.github.io/)                    |
+
 
 ---
 
